@@ -73,3 +73,8 @@ def convolutional_model(input_shape):
 
     model = tf.keras.Model(inputs=input_img, outputs=outputs)
     return model
+
+
+# Good Docs :
+# https://www.tensorflow.org/guide/keras/sequential_model
+# https://www.tensorflow.org/guide/keras/functional_api
